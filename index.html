@@ -1,0 +1,453 @@
+<html>
+<head>
+    
+    <link rel="icon" href="C:\Users\saish\Desktop\Ai\l.png">
+    </head>
+    <meta charset="UTF-8">
+<tittle>
+    <img src ="C:\Users\saish\Desktop\Ai\l.png" width="30",height="30">
+    Crop Disease Identification</tittle>
+    
+<style>
+    
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E69632; 
+}
+    
+    
+.upload-btn-wrapper {
+  position: absolute;
+  overflow: hidden;
+  top: 98%;
+  left:48%;
+  padding-top: 2%;
+    
+}
+    tittle{
+         font-family:poppins;
+         font-size: 16px;
+         font-weight: 600;
+         padding-top: 10px;
+         position: absolute;
+         
+    }
+    
+.btn {
+  color: white;
+  background-color: black;
+  padding: 10px 35px;
+  border-radius: 100px;
+  font-family:poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+    
+.img{
+    text-align:center;
+ }
+    
+.para{
+        
+        
+        text-align:center;
+        font-family: poppins;
+        font-size:20px;
+        font-weight: 450;
+        padding-left: 60px;
+        padding-bottom: 30px;
+        right:100%;
+    }    
+    
+.para2{
+        
+        
+        text-align:left;
+        font-family: poppins;
+        font-size:25px;
+        font-weight: 600;
+        padding-left: 60px;
+        padding-bottom: 0.5px;
+        padding-top: 140px;
+        right:100%;
+    }        
+    
+    footer{
+        
+        padding-top: 90px;
+
+        
+    }    
+    
+    
+.footer-dark {
+    padding-left:50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color:white;
+    border-radius:10px;
+    background-color:black;
+    font-family: poppins;
+    font-size:12.80px;
+}
+
+.footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    color: wheat;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  font-weight:400;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  font-weight:400;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+
+    
+.team{
+        
+         text-align: left;
+         margin-left: 20px;
+         padding-left: 1050px;
+         position: absolute;
+    }    
+.mentor{
+         padding-left: 850px;
+         max-width: 300px;
+         text-align: left;
+         margin: auto;
+         margin: auto;
+         position: absolute;
+    }
+.about{
+         max-width: 600px;
+         padding-bottom: 15px;
+         font-weight:400;
+         text-align: left;        
+
+    }
+.bt{
+        color:black;
+        font-family:poppins;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration:none;
+        border-radius: 0px;
+        border: 0;
+        background: white;
+    }
+    
+    .bt2{
+        color:black;
+        font-family:poppins;
+        padding-left: 25px;
+        padding-right: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration:none;
+        border-radius: 0px;
+        border: 0;
+        background: white;
+    }
+    
+    .b-al{
+        padding-right: 10px; 
+        padding-top: 13px;
+        text-align: right;
+    }
+
+.copyright {
+        text-align:center;
+        padding-top:1px;
+        opacity:0.3;
+        font-size:12.08px;
+}
+  
+.para3{
+        
+        
+        text-align:left;
+        font-family: poppins;
+        font-size:25px;
+        font-weight: 700;
+        padding-left: 60px;
+        padding-bottom: 0.3px;
+        padding-top: 15px;
+        right:100%;
+    }        
+    
+.para4{
+        
+        
+        text-align:left;
+        font-family: poppins;
+        font-size:20px;
+        font-weight: 500;
+        padding-left: 60px;
+        padding-bottom: 0.01px;
+        padding-top: 0.3px;
+        right:100%;
+    }            
+    
+    .para5{
+        
+        
+        text-align:left;
+        font-family: poppins;
+        font-size:12.80px;
+        font-weight: 450;
+        padding-left: 60px;
+        padding-bottom: 0px;
+        color: black;
+        padding-top: 0.3px;
+        right:100%;
+        max-width: 450;
+      
+    }   
+    
+    
+    .step1_img{
+        
+       padding-left: 900px; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        
+    }
+    
+    .step2_img{
+        padding-left: 50px; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        
+    }
+    .step3_img{
+        
+       padding-left: 900px; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        
+    }
+    .step1{
+        
+        position: absolute;
+        padding-top: 40px;
+    }
+    
+    .step2{
+        
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 800px;
+    }
+    .step3{
+        
+        position: absolute;
+        padding-top: 40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+</style>
+
+<body>
+    <div class="b-al">
+<button class="bt">About</button>
+        <button class="bt2">Team</button>
+        </div>
+    
+<div class = "img">
+<img src="C:\Users\saish\Desktop\Ai\img.svg" height ="533.75" width="911">
+</div>
+    
+<div class = "para">
+<p>Click & upload the image of your crop leaf for analysis!</p>
+</div>
+    
+<div class="upload-btn-wrapper">
+<button class="btn">Upload</button>
+  <input type="file" name="myfile" />
+</div>
+    
+<div class = "para2">
+<p>How it works?</p>
+</div>
+<hr>
+
+    
+    
+<div class = "step1">
+    
+<div class = "para3">
+<p>Step 1</p>
+</div>  
+    
+<div class = "para4">
+<p>Click on upload button.</p>
+</div>       
+    
+ <div class = "para5">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+</div>    
+    
+ </div>
+    
+   <div class = "step1_img">
+<img src="C:\Users\saish\Desktop\Ai\sample1.svg" height ="400" width="400">
+</div> 
+<hr>    
+    
+    
+    
+    
+    
+    
+<div class = "step2">
+    
+<div class = "para3">
+<p>Step 2</p>
+</div>  
+    
+<div class = "para4">
+<p>Select the image you want to upload.</p>
+</div>       
+    
+ <div class = "para5">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+</div>    
+    
+ </div>
+    
+   <div class = "step2_img">
+<img src="C:\Users\saish\Desktop\Ai\sample2.svg" height ="400" width="400">
+</div> 
+<hr>        
+    
+    
+    
+    
+    
+<div class = "step3">
+    
+<div class = "para3">
+<p>Step 3</p>
+</div>  
+    
+<div class = "para4">
+<p>Get the results!</p>
+</div>       
+    
+ <div class = "para5">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+</div>    
+    
+ </div>
+    
+   <div class = "step3_img">
+<img src="C:\Users\saish\Desktop\Ai\sample3.svg" height ="400" width="400">
+</div> 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+            <div class="footer-dark">
+            <div class="container">
+                <div class="row">
+                    
+                 
+                    
+                                       <div class="mentor">
+                                       <h3>Mentors</h3>
+                                              <ul>
+                                                   <li><a href="#">Mr. Mohit Agrawal</a></li>
+                                                   <li><a href="#">Dr. M. V. Bramhe</a></li>
+                                               </ul>
+                                      </div>
+                    
+                    <div class="team">
+                        <h3>Team&nbsp;&nbsp;Members</h3>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/saishadlak/">Saish Adlak</a></li>
+                            <li><a href="#">Deepika Gupta</a></li>
+                            <li><a href="https://www.linkedin.com/in/noopur-katre-4840a71b7/">Noopur Katre</a></li>
+                            <li><a href="https://www.linkedin.com/in/rishika-bagga-b960a61b7/">Rishika Bagga</a></li>
+                            <li><a href="https://www.linkedin.com/in/gayatri-satpute-ba42ab190/">Gayatri Satpute</a></li>
+                        </ul>
+                    </div>
+                    <div class ="about">
+                    <h3>About</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    
+                    </div>
+               
+                
+                      
+                    
+                <div class="copyright"> 
+                    <p>SVPCET © 2021</p>
+              </div>
+              </div>
+              </div>
+         </div>
+        </footer>
+
+
+
+
+</body>
+</html>
